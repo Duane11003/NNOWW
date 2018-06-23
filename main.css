@@ -2,6 +2,10 @@
     padding-top: 70px;
 } */
 
+html {
+    height: 100%;
+}
+
 div.hero {
     background-image: url(assets/main_img_1.jpg);
     background-size: cover;
@@ -29,6 +33,27 @@ div.hero {
     padding-top: 25%;
 }
 
-h3 {
+div.main_content {
+    text-align: center;
+}
+
+h3.main {
+    color: #333;
+    font-weight: bolder;
+    padding-top: 1em;
+}
+
+h3.hero {
     color: white;
+}
+
+hr {
+    width: 470px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+p.body_text {
+    font-size: 1.15em;
+    padding-top: 1em;
 }
